@@ -192,7 +192,7 @@ button, summary { font: inherit; }
   border-radius: .3rem var(--radius) var(--radius) .3rem;
   background: var(--rose);
 }
-figcaption { padding-top: var(--space-1); color: var(--muted); font-size: .875rem; line-height: 1.6; }
+figcaption { padding-top: var(--space-1); color: var(--muted); font-size: .875rem; line-height: 1.6; text-wrap: balance; }
 .hero-photo figcaption { text-align: right; }
 .mobile-break { display: none; }
 
@@ -408,4 +408,5 @@ figcaption { padding-top: var(--space-1); color: var(--muted); font-size: .875re
 @media (max-width: 360px) {
   .main-nav a { padding-inline: .12rem; font-size: .875rem; }
   .hero h1 { font-size: 1.75rem; }
+  .contact-actions .button { padding-inline: .8rem; }
 }
