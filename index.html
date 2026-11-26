@@ -1,78 +1,104 @@
 <!doctype html>
-<html lang="ja" id="top">
+<html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="theme-color" content="#f8f1e7">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; font-src 'self' data:; img-src 'self'; base-uri 'none'; form-action 'none'">
-  <title>もんらぼ | ホームページのデザイン見本</title>
-  <link rel="icon" href="favicon.png" type="image/png" sizes="64x64">
-  <link rel="stylesheet" href="fonts.css?v=2">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#f8efe4">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; font-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <title>もんらぼ｜羊毛フェルトのうちの子オーダー・教室</title>
+  <meta name="description" content="長野県松本市の羊毛フェルト作家、もんらぼ。犬や猫のうちの子オーダーのご相談と、塩尻の羊毛フェルト教室をご案内します。">
+  <link rel="canonical" href="https://illflora.github.io/monlabo-preview/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="羊毛フェルトのもんらぼ">
+  <meta property="og:title" content="もんらぼ｜羊毛フェルトのうちの子オーダー・教室">
+  <meta property="og:description" content="長野県松本市の羊毛フェルト作家、もんらぼ。犬や猫のうちの子オーダーのご相談と、塩尻の羊毛フェルト教室をご案内します。">
+  <meta property="og:url" content="https://illflora.github.io/monlabo-preview/">
+  <meta property="og:image" content="https://illflora.github.io/monlabo-preview/assets/og-home.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="箱に並んだ犬の羊毛フェルトのミニマスコット">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" sizes="64x64" href="./favicon.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="preload" href="./assets/mplus1p-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./fonts.css?v=3">
+  <link rel="stylesheet" href="./styles.css?v=3">
 </head>
 <body>
   <a class="skip" href="#main">本文へ移動</a>
-  <header class="masthead shell">
-    <a class="mark" href="#top" translate="no">もんらぼ</a>
-    <nav aria-label="ページ内の案内">
-      <a href="#order">オーダー</a>
-      <a href="#lesson">教室案内</a>
-      <a href="#about">私について</a>
-    </nav>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <a class="wordmark" href="./" aria-label="もんらぼ ホーム" translate="no"><span class="brand-symbol" aria-hidden="true"></span>もんらぼ</a>
+      <nav class="main-nav" aria-label="メインメニュー">
+        <a href="./" aria-current="page">ホーム</a>
+        <a href="./order/">オーダー</a>
+        <a href="./lesson/">教室案内</a>
+        <a href="./about/">私について</a>
+      </nav>
+      <a class="header-social arrow" href="https://www.instagram.com/mon_laboratory/">Instagram</a>
+    </div>
   </header>
-  <main id="main">
-    <section class="hero shell" aria-labelledby="title">
+  <main id="main" tabindex="-1">
+    <section class="hero shell" aria-labelledby="home-title">
       <div class="hero-copy">
-        <p class="proof">ホームページのデザイン見本</p>
-        <h1 id="title">うちの子を、<br>手のひらに。</h1>
-        <p class="lead">大切なペットの面影を、羊毛フェルトで一つずつ。長野県松本市の「もんらぼ」です。</p>
-        <a class="button" href="#order">オーダーの流れを見る</a>
+        <p class="hero-place">長野県松本市の羊毛フェルト作家</p>
+        <h1 id="home-title">うちの子を、<br>羊毛フェルトで。</h1>
+        <p class="hero-lead">毛色や表情を写真で確かめながら、<br class="desktop-break">大切なうちの子の姿をお作りします。</p>
+        <div class="hero-actions">
+          <a class="button arrow" href="order/">うちの子オーダー</a>
+          <a class="text-link arrow" href="lesson/">教室案内</a>
+        </div>
       </div>
-      <aside class="photo-card" aria-labelledby="photo-title">
-        <h2 id="photo-title">ご用意いただく写真</h2>
-        <p>明るい場所で、毛色や模様が分かる写真をお願いします。</p>
-        <ul class="angles" aria-label="写真の向き">
-          <li><span class="view front" aria-hidden="true"><i></i></span>正面</li>
-          <li><span class="view side" aria-hidden="true"><i></i></span>横</li>
-          <li><span class="view full" aria-hidden="true"><i></i></span>全身</li>
-        </ul>
-      </aside>
+      <figure class="hero-photo">
+        <img src="./assets/sunny-chai.webp" srcset="./assets/sunny-chai-360.webp 360w, ./assets/sunny-chai.webp 640w" width="640" height="620" alt="木箱に並んだ茶色と白の犬の羊毛フェルトのミニマスコット" decoding="async" fetchpriority="high" sizes="(max-width: 720px) 94vw, (max-width: 1360px) 54vw, 704px">
+        <figcaption>サニーちゃんとチャイちゃんのミニマスコット</figcaption>
+      </figure>
     </section>
 
-    <section class="order" id="order" aria-labelledby="order-title">
-      <div class="shell order-grid">
-        <header>
-          <h2 id="order-title">オーダーの流れ</h2>
-          <p>作品の種類と、お届けまでの流れです。</p>
+    <section class="work-section section" aria-labelledby="works-title">
+      <div class="shell">
+        <header class="section-heading">
+          <h2 id="works-title">羊毛フェルトの作品</h2>
+          <a class="text-link arrow" href="https://www.instagram.com/mon_laboratory/">Instagramで作品を見る</a>
         </header>
-        <div>
-          <dl class="menu">
-            <div><dt>フォトフレームタイプ</dt><dd>お顔から胸までを半立体で表現します。</dd></div>
-            <div><dt>お座りドール</dt><dd>犬・猫の全身をお座り姿で表現します。</dd></div>
-          </dl>
-          <ol class="steps">
-            <li><span class="step-number" aria-hidden="true">01</span><h3><a href="https://www.instagram.com/mon_laboratory/">Instagramで相談</a></h3><p>気になる作品のタイプをお知らせください。</p></li>
-            <li><span class="step-number" aria-hidden="true">02</span><h3>写真とお見積もり</h3><p>写真を拝見して、ご希望の仕上がりを確認します。</p></li>
-            <li><span class="step-number" aria-hidden="true">03</span><h3>制作・お届け</h3><p>完成写真をご確認いただいてから発送します。</p></li>
-          </ol>
+        <div class="work-gallery">
+          <figure>
+            <img src="./assets/corgi.webp" srcset="./assets/corgi-360.webp 360w, ./assets/corgi.webp 640w" width="640" height="672" alt="指先でつまめる大きさの、立ち耳のコーギーの羊毛フェルト作品" decoding="async" loading="lazy" sizes="(max-width: 560px) 43vw, 30vw">
+            <figcaption>コーギーのストラップ</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/hedgehog.webp" srcset="./assets/hedgehog-360.webp 360w, ./assets/hedgehog.webp 640w" width="640" height="672" alt="フェルトの帽子をかぶったはりねずみの作品" decoding="async" loading="lazy" sizes="(max-width: 560px) 43vw, 30vw">
+            <figcaption>ぼうしはりねずみ</figcaption>
+          </figure>
+          <figure>
+            <img src="./assets/shimaenaga.webp" srcset="./assets/shimaenaga-360.webp 360w, ./assets/shimaenaga.webp 640w" width="640" height="672" alt="木の棚に並んだ、ふっくらしたシマエナガの羊毛フェルト作品" decoding="async" loading="lazy" sizes="(max-width: 560px) 90vw, 30vw">
+            <figcaption>シマエナガ</figcaption>
+          </figure>
         </div>
       </div>
     </section>
 
-    <div class="shell info-grid">
-      <section id="lesson" aria-labelledby="lesson-title">
-        <h2 id="lesson-title">教室案内</h2>
-        <p>塩尻市民カルチャーセンターで、羊毛フェルトの講座を開いています。</p>
-        <a class="quiet-link" href="https://www.instagram.com/culture_shiojiri/">教室のInstagramを見る</a>
-      </section>
-      <section id="about" aria-labelledby="about-title">
-        <h2 id="about-title">私について</h2>
-        <p>長野県松本市で羊毛フェルトの作品を作っています。ペットの表情や毛色が伝わるよう、羊毛を少しずつ重ねて仕上げます。</p>
-        <a class="quiet-link" href="https://www.instagram.com/mon_laboratory/">Instagramで作品を見る</a>
-      </section>
-    </div>
+    <section class="route-section shell section" aria-label="もんらぼのご案内">
+      <a href="order/" class="route arrow" id="order"><h2>オーダーの流れ</h2><p>作品の種類・料金、写真の準備からお届けまで。</p></a>
+      <a href="lesson/" class="route arrow" id="lesson"><h2>教室案内</h2><p>塩尻で、羊毛フェルトを基礎から。</p></a>
+      <a href="about/" class="route arrow" id="about"><h2>私について</h2><p>もんらぼを主宰する、おおたけいこの紹介。</p></a>
+    </section>
   </main>
-  <footer><div class="shell footer-inner"><a class="mark" href="#top" translate="no">もんらぼ</a><p>ホームページのデザイン見本</p></div></footer>
+  <footer class="footer">
+    <div class="shell footer-inner">
+      <div>
+        <a class="wordmark" href="./" aria-label="もんらぼ ホーム" translate="no"><span class="brand-symbol" aria-hidden="true"></span>もんらぼ</a>
+        <p>長野県松本市の羊毛フェルト作家</p>
+      </div>
+      <nav aria-label="フッターメニュー">
+        <a href="./order/">オーダー</a>
+        <a href="./lesson/">教室案内</a>
+        <a href="./about/">私について</a>
+        <a href="https://www.instagram.com/mon_laboratory/">Instagram</a>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
