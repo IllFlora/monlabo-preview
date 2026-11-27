@@ -370,6 +370,10 @@ figcaption { padding-top: var(--space-1); color: var(--muted); font-size: .875re
   .route { padding: var(--space-2) .35rem; }
 }
 
+@media (min-width: 721px) and (max-width: 767px) {
+  .hero h1 span { font-size: .65em; }
+}
+
 @media (max-width: 720px) {
   .masthead-inner { grid-template-columns: 1fr auto; grid-template-areas: "brand social" "nav nav"; gap: 0; padding-top: .3rem; }
   .masthead .wordmark { grid-area: brand; font-size: 1.48rem; }
