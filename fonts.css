@@ -1,6 +1,6 @@
 @font-face {
   font-family: "M PLUS 1p";
-  src: url("assets/mplus1p-400.woff2") format("woff2");
+  src: url("assets/mplus1p-400.woff2?v=95c79f55") format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "M PLUS 1p";
-  src: url("assets/mplus1p-700.woff2") format("woff2");
+  src: url("assets/mplus1p-700.woff2?v=368b36b3") format("woff2");
   font-style: normal;
   font-weight: 700;
   font-display: swap;

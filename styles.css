@@ -3,6 +3,7 @@
   --canvas: #f8efe4;
   --surface: #fffbf5;
   --rose: #e8c8c1;
+  --hero-rose: #efd5d8;
   --ink: #332823;
   --muted: #635047;
   --accent: #743f3a;
@@ -172,7 +173,7 @@ button, summary { font: inherit; }
   margin-top: -1.5rem;
   padding: clamp(2rem, 4.6vw, 4.5rem) clamp(1.5rem, 4vw, 3.75rem);
   border-radius: var(--radius) .3rem .3rem var(--radius);
-  background: var(--rose);
+  background: var(--hero-rose);
 }
 .hero-copy::before {
   content: "";
@@ -183,7 +184,9 @@ button, summary { font: inherit; }
 }
 .hero-place { margin-block-end: var(--space-2); font-weight: 700; color: var(--accent); }
 .hero h1 { font-size: clamp(1.95rem, 3.65vw, 3.45rem); letter-spacing: -.025em; line-height: 1.33; }
+.hero h1 span { display: block; margin-top: .22em; font-size: .7em; letter-spacing: 0; line-height: 1.42; }
 .hero-lead { margin-top: var(--space-3); line-height: 1.85; }
+.hero-lead span { display: inline-block; max-inline-size: 100%; }
 .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-1) var(--space-3); margin-top: var(--space-4); }
 .hero-photo img {
   aspect-ratio: 1.19;
@@ -361,7 +364,6 @@ figcaption { padding-top: var(--space-1); color: var(--muted); font-size: .875re
 .footer p { margin-top: .2rem; color: var(--muted); }
 
 @media (max-width: 900px) {
-  .desktop-break { display: none; }
   .hero-copy { padding: var(--space-3); }
   .hero-photo img { aspect-ratio: 1.04; }
   .hero-actions { gap: var(--space-1) var(--space-2); margin-top: var(--space-3); }
