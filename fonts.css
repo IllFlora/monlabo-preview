@@ -1,6 +1,6 @@
 @font-face {
   font-family: "M PLUS 1p";
-  src: url("assets/mplus1p-400.woff2?v=95c79f55") format("woff2");
+  src: url("assets/mplus1p-400.woff2?v=df299d22") format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,8 +8,16 @@
 
 @font-face {
   font-family: "M PLUS 1p";
-  src: url("assets/mplus1p-700.woff2?v=368b36b3") format("woff2");
+  src: url("assets/mplus1p-700.woff2?v=451a09e1") format("woff2");
   font-style: normal;
   font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Zen Old Mincho";
+  src: url("assets/zen-old-mincho-500.woff2?v=333b5f74") format("woff2");
+  font-style: normal;
+  font-weight: 500;
   font-display: swap;
 }
